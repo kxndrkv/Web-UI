@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB UI By Ken</title>
+	<link rel="stylesheet" type="text/css" href="./css/myStyles.css">
+	<link rel="icon" href="./images/sea.png" type="images/x-icon">
+
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#gallery">Gallery</a></li>
+		<li><a href="#form">Form</a></li>
+		</ul>
+	</nav>
+
+	<section id="gallery">
+        <div class="gallery-header">
+            <h2>Ocean Summer</h2>
+        </div>
+		<div class="gallery-item">
+			<img src="./images/cristofer-maximilian-MtGVKCbPELM-unsplash.jpg" alt="People on a boat during sunset">
+		</div>
+		<div class="gallery-item">
+			<img src="./images/cristofer-maximilian-uQDRDqpYJHI-unsplash.jpg" alt="Beach during sunset">
+		</div>
+		<div class="gallery-item">
+			<img src="./images/rick-maschke-avGc9hXuWYM-unsplash.jpg" alt="Water waves">
+		</div>
+		
+	</section>
+
+	<section id="form">
+		<h2>Contact Us</h2>
+		<form action="/submit_form" method="post">
+			<label for="name">Name:</label><br>
+			<input type="text" id="name" name="name" required><br>
+			<label for="email">Email:</label><br>
+			<input type="email" id="email" name="email" required><br>
+			<label for="message">Message:</label><br>
+			<textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+			<input type="submit" value="Submit">
+		</form>
+	</section>
+</body>
+</html>
